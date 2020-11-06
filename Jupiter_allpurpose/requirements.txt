@@ -1,0 +1,41 @@
+#classics
+pandas
+numpy
+seaborn
+scikit-learn
+chart_studio
+plotly
+
+# scrapping & api
+httpie
+requests
+beautifulsoup4
+scrapy
+
+# cloudera coms (hadoop)
+hdfs
+pyhive
+thrift
+sasl
+thrift-sasl
+happybase
+
+#Storage
+google-cloud-storage
+
+#others
+kafka-python
+keras
+tensorflow
+theano
+MKL
+
+#SQL AZURE API REST with flask
+# sudo apt-get install unixodbc-dev (for pyodbc)
+pyodbc
+flask
+flask-restful
+opencensus-ext-azure
+opencensus-ext-flask
+tenacity
+python-dotenv
