@@ -11,10 +11,8 @@
 # NOTE : next/other version due when i have all pieces form REST API in SQLAzure 
 #
 FROM python:alpine
-# INSTALLING  flask libs
- RUN pip install flask
- RUN pip install flask_sqlalchemy
- RUN pip install pysqlite3
+# INSTALLING  pre-requisites
+RUN pip install --upgrade pip
 
 # INSTALLING python flask libs from volume (project directory)
 WORKDIR /usr/src

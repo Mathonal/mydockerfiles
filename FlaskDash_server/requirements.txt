@@ -11,7 +11,7 @@ dash #==1.17.0
 dash-pivottable
 dash-daq
 dash-auth #==1.3.2
-dash_bootstrap_components
+dash-bootstrap-components
 # DATA lib
 scipy
 pandas

@@ -1,3 +1,6 @@
+# MANDATORY
+python-dotenv
+#
 flask
 flask_mail
 flask_sqlalchemy
