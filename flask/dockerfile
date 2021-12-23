@@ -10,7 +10,11 @@
 #
 # NOTE : next/other version due when i have all pieces form REST API in SQLAzure 
 #
-FROM python:alpine
+#FROM python:alpine
+FROM python:latest
+# alpine does have problems with installing flask lib ... solved with full python image
+# (unable to execute 'gcc': No such file or directory error: command 'gcc' failed with exit status 1)
+
 # INSTALLING  pre-requisites
 RUN pip install --upgrade pip
 

@@ -1,7 +1,18 @@
-# MANDATORY
+# MANDATORY for env handling/cloud publication
 python-dotenv
-#
+
+# flask modules
 flask
 flask_mail
 flask_sqlalchemy
+Flask_RESTful
+
+# Databases 
 pysqlite3
+
+# displaying markdown as html
+mistune==2.0.0rc1
+Flask-Markdown
+
+#other
+requests
